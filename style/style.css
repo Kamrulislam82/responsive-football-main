@@ -1,0 +1,93 @@
+/*---------------------------------------
+             font 
+---------------------------------------------*/
+.body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+/* -------------------------------------------
+                main
+----------------------------------------------- */
+main{
+    display: flex;
+    justify-content: center;
+}
+/*--------------------------------------------
+       Hed banner sid 
+----------------------------------------------*/
+.banner{
+    height: 677px;
+    width: 1440px;
+    background-color: #2D25A0;
+    display: flex;
+}
+.bblogs h1{
+    color: white;
+    width: 700;
+    size: 64px;
+}
+.blogs a{
+    color: white;
+    text-decoration: none;
+    
+}
+.thumbnail img{
+    position: absolute
+    
+    width: 556.01px;
+    height: 438px; 
+    
+}
+
+/*----------------------------------------
+         players list
+------------------------------------------*/
+
+.players{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color:#FFFFFF;
+    margin-top: 27px;
+}
+.players .player img{
+    width: 300px;
+    height: 256px;
+}
+
+/*-------------------------------------------------
+               footer sit and social info 
+----------------------------------------------------*/
+.footer_banner{
+    display: grid;
+    justify-content: center;
+}
+.footer_banner img{
+    
+    width: 483.87px;
+    height: 110px;
+}
+.socil_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    height: 32px;
+   
+}
+.socil_info> .fa-facebook-squarek{
+    color: #1773EA;
+}                              */ color payna */
+.socil_info> .fa-twitter{
+    color: #00A7E9;
+}
+.socil_info> .fa-instagram{
+    color: #D90351;
+}
+.socil_info> .fa-youtube{
+    color: #F70000;
+}
