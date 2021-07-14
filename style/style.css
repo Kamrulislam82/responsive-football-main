@@ -40,7 +40,7 @@ header {
   font-size: 65px;
 }
 .button {
-  background-color: #E02C6D;
+  background-color: #e02c6d;
   padding: 5px 30px;
   display: flex;
   align-items: center;
@@ -90,8 +90,7 @@ header {
   margin: 100px 0;
 }
 .footer_banner img {
-  width: 483.87px;
-  height: 110px;
+  width: 50%;
 }
 .socil_info {
   display: flex;
@@ -100,8 +99,8 @@ header {
   width: 170px;
   height: 32px;
 }
-.socil_info> .fa-facebook-square{
-  color: #355DAA;
+.socil_info > .fa-facebook-square {
+  color: #355daa;
 }
 .socil_info > .fa-twitter {
   color: #00a7e9;
