@@ -1,93 +1,114 @@
 /*---------------------------------------
              font 
 ---------------------------------------------*/
-.body{
-    
-    font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
+.body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 /* -------------------------------------------
                 main
 ----------------------------------------------- */
-main{
-    display: flex;
-    justify-content: center;
+main {
+  display: flex;
+  justify-content: center;
 }
 /*--------------------------------------------
        Hed banner sid 
 ----------------------------------------------*/
-.banner{
-    height: 677px;
-    width: 1440px;
-    background-color: #2D25A0;
-    display: flex;
+header {
+  background-color: #2d25a0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.bblogs h1{
-    color: white;
-    width: 700;
-    size: 64px;
+.banner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
 }
-.blogs a{
-    color: white;
-    text-decoration: none;
-    
+.blogs {
+  width: 40%;
 }
-.thumbnail img{
-    position: absolute
-    
-    width: 556.01px;
-    height: 438px; 
-    
+.blogs h1 {
+  color: white;
+  width: 700;
+  font-size: 65px;
+}
+.button {
+  background-color: #E02C6D;
+  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+  width: 130px;
+}
+.button h3 {
+  margin-right: 10px;
+}
+.thumbnail {
+  width: 50%;
+}
+.thumbnail img {
+  width: 90%;
 }
 
 /*----------------------------------------
          players list
 ------------------------------------------*/
-
-.players{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    background-color:#FFFFFF;
-    margin-top: 27px;
+.players-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.players .player img{
-    width: 300px;
-    height: 256px;
+.players {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin: 27px 0;
+}
+.player {
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+.players .player img {
+  width: 100%;
 }
 
 /*-------------------------------------------------
                footer sit and social info 
 ----------------------------------------------------*/
-.footer_banner{
-    display: grid;
-    justify-content: center;
+.footer_banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0;
 }
-.footer_banner img{
-    
-    width: 483.87px;
-    height: 110px;
+.footer_banner img {
+  width: 483.87px;
+  height: 110px;
 }
-.socil_info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 170px;
-    height: 32px;
-   
+.socil_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+  height: 32px;
 }
-.socil_info> .fa-facebook-squarek{
-    color: #1773EA;
-}                              */ color payna */
-.socil_info> .fa-twitter{
-    color: #00A7E9;
+.socil_info> .fa-facebook-square{
+  color: #355DAA;
 }
-.socil_info> .fa-instagram{
-    color: #D90351;
+.socil_info > .fa-twitter {
+  color: #00a7e9;
 }
-.socil_info> .fa-youtube{
-    color: #F70000;
+.socil_info > .fa-instagram {
+  color: #d90351;
+}
+.socil_info > .fa-youtube {
+  color: #f70000;
 }
